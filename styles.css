@@ -36,9 +36,16 @@ body{
     font-weight: 600;
 }
 .Wave{
-    color: red;
-    font-size: 4rem;
-    font-weight: 600;
+    background: linear-gradient(
+    to right,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+);
+
+-webkit-background-clip: text;
+color: transparent;
+font-size: 4rem;
 }
 .subscribe-btn{
     background: linear-gradient(
@@ -357,7 +364,7 @@ body{
 .footer-description{
     position: absolute;
     top:268px;
-    left: 650px;
+    left: 610px;
 }
 
 .grid-cart-section-paragraph-2{
@@ -365,4 +372,30 @@ body{
     opacity: 0.6;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.footer-heading{
+    position: absolute;
+    top: 120px;
+    left: 595px;
+    font-size: 5rem ;
+    padding-bottom: 8px;
+}
+
+.footer h3 .Coloring-wave{
+    background: linear-gradient(
+    to right,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.Tech-footer{
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
 }
