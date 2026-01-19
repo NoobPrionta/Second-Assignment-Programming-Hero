@@ -399,3 +399,49 @@ font-size: 4rem;
     font-size: 5rem;
     font-weight: 600;
 }
+
+
+
+/* Hero section started from here  */
+
+.hero-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    top: 101px;
+    left: 625px;
+}
+.microphone{
+    position: absolute;
+    top: 178.33px;
+    left: 741.67px;
+}
+
+.new{
+    background-color: #00FF88;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 8px;
+    top: 113px;
+    left: 877px;
+
+
+    animation: float 3s ease-in-out infinite, glow 2s infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 5px #38bdf8; }
+  50% { box-shadow: 0 0 25px #38bdf8; }
+  100% { box-shadow: 0 0 5px #38bdf8; }
+}
