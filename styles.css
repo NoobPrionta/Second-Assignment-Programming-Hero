@@ -129,3 +129,54 @@ body{
 .Featured-episode{
     margin-bottom: 120px;
 }
+
+/* Host section started from here  */
+
+.host-whole{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #250D44;
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 120px;
+}
+.meet-host-heading{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.host-pic{
+    height: 200px;
+    width: 200px;
+}
+
+.host-info{
+    color: white;
+    padding: 20px;
+    padding-left: 20px;
+}
+.host-info p{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e6e2e2;
+}
+.host-info .social-link{
+    display: flex;
+    justify-content: left;
+    gap: 8px;
+}
+.pic-1, .pic-2, .pic-3, .pic-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid white;
+}
