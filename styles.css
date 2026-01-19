@@ -404,9 +404,13 @@ font-size: 4rem;
 
 /* Hero section started from here  */
 
+
 .hero-section{
     max-width: 1600px;
     margin: 0 auto;
+    position: relative;
+}
+.hero-description{
     position: relative;
 }
 .circle{
@@ -444,4 +448,42 @@ font-size: 4rem;
   0% { box-shadow: 0 0 5px #38bdf8; }
   50% { box-shadow: 0 0 25px #38bdf8; }
   100% { box-shadow: 0 0 5px #38bdf8; }
+}
+
+.grid-heading{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    position: absolute;
+    top: 491px;
+    left: 655px;
+}
+
+.grid-cart-section-paragraph{
+    position: absolute;
+    top: 572px;
+    left: 525px;
+}
+.hero-section .subscribe-btn{
+    /* border: 2px solid red; */
+    max-width: 200px;
+    position: absolute;
+    top: 615px;
+    left: 622px;
+}
+
+.hero-button-subscribe{
+    color: #00FF88;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    border: 1px solid #00FF88;
+    max-width: 147px;
+    border-radius: 8px;
+    padding: 12.5px 20px 12.5px ;
+    position: absolute;
+    top: 615px;
+    left: 831px;
+    cursor: pointer;
 }
