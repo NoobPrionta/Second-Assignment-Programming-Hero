@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* max-width: 1600px; */
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #220f3a;
+}
+
+/* Nav bar styles */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 10px;
+    margin-bottom: 8px; */
+}
+.list-items ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+.list-items ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+.Tech{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.Wave{
+    color: red;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.subscribe-btn{
+    background: linear-gradient(
+    45deg,
+    #F7E93F,
+    #FB09B4,
+    #9100F8
+    );
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+/* Featured section styles */
+
+.Featured-episode{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: flex; */
+
+}
+
+.feature-heading{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.yt-video iframe{
+    border-radius: 10px;
+    height: 230px;
+    width: 375px;
+    padding: 4px;
+}
+
+
+.Featured-episode .featured-cart{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #705a8d; */
+    background-color: #250D44;
+    width: 380px;
+    /* height: 440px; */
+    border-radius: 8px;
+    /* border: 3px solid red; */
+}
+.feature-text{
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding: 24px 24px 12px 24px;
+}
+
+.feature-description{
+    color: #FFFFFF;
+    padding: 12px 24px 12px 20px;
+    font-size: 0.90rem;
+    font-weight: 400;
+}
+
+.feature-time{
+    color: white;
+    padding: 24px;
+}
+.feature-whole{
+    display: flex;
+    flex-wrap: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-time{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.feature-time img{
+    height: 17px;
+    width: 17px;
+}
+.Featured-episode{
+    margin-bottom: 120px;
+}
