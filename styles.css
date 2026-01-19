@@ -56,6 +56,29 @@ body{
     color: white;
 }
 
+
+/* shared tag  */
+
+
+.grid-cart-section-heading{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 16px 0;
+}
+
+.grid-cart-section-paragraph{
+    /* color: var(--#FFFFFF, rgba(255, 255, 255, 1)); */
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-size: 1rem;
+    font-weight: 400;
+    /* padding-bottom: 40px; */
+}
+
+
+
+
 /* Featured section styles */
 
 .Featured-episode{
@@ -179,4 +202,116 @@ body{
     cursor: pointer;
     border-radius: 50%;
     border: 1px solid white;
+}
+
+
+/* Grid cart section started from here  */
+
+.Grid-heading{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.grid-cart-whole{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.grid-cart{
+    grid-row: span 2;
+    background-color: #351165;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 40px;
+    padding: 40px;
+}
+.grid-cart img{
+    height: 60px;
+    width: 60px;
+}
+.grid-cart-1 img{
+    height: 80px;
+    width: 60px;
+    padding: 10px;
+}
+.grid-cart-2 img{
+    height: 60px;
+    width: 60px;
+}
+.grid-cart-1, .grid-cart-2{
+    grid-column: span 2;
+    background-color: #351165;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:40px;
+    padding: 40px;
+}
+
+.grid-cart-3{
+    grid-column: span 2;
+    background-color: #351165;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.grid-cart-3 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    padding-top: 12px;
+}
+
+.grid-cart-4{
+    grid-column: span 1;
+    background-color: #351165;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 40px;
+    /* padding-bottom: 40px; */
+}
+.grid-cart-4 p{
+    padding-bottom: 40px;
+}
+.grid-cart-4 img{
+    height: 100px;
+    width: 60px;
+    border-radius: 8px;
+    padding-top: 40px;
+}
+
+
+/* Podcast Folder started from here  --> */
+
+.whole-podcast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.podcast-paragraph-1{
+    margin-top: 18px;
+    text-align: center;
+}
+.podcast-paragraph-2{
+    margin-top: 20px;
+    text-align: center;
 }
